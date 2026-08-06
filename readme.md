@@ -192,7 +192,3 @@ examples/
 tests/
   test_modules.py  # CPU-only, no downloads required, runs in CI
 ```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
