@@ -1,5 +1,23 @@
 # quant-head
 
+<div align="center">
+
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
+[![HuggingFace Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-4.40%2B-yellow.svg)](https://huggingface.co/docs/transformers/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+**Model-agnostic INT8 quantization for LLM Embedding Tables & LM Heads.**
+
+</div>
+
+---
+
+### Tech Stack
+`Python` • `PyTorch` • `Hugging Face Transformers` • `Setuptools`
+
+---
+
 Model-agnostic INT8 quantization for the **embedding table and LM head** of
 any Hugging Face causal LM — two layers that can dominate memory footprint
 for models with large vocabularies relative to hidden size (e.g. Gemma's
