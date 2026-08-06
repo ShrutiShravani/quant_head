@@ -88,7 +88,7 @@ evaluation, stride=512, 50 documents) — the same dataset/protocol used to
 report numbers in GPTQ, AWQ, and LLM.int8(). Latency is mean forward-pass
 time over 20 runs after 3 warmup runs. Run on a single T4 GPU (Colab).
 
-###results 
+Results 
 
 | Model | Variant | Storage (GB) | Peak Infer (GB) | PPL | ΔPPL | Latency (ms) | Tied |
 |---|---|---|---|---|---|---|---|
