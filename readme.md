@@ -66,7 +66,7 @@ standalone, model-agnostic module rather than a `transformers`/bitsandbytes
 core-library patch, to validate and ship the underlying idea without
 waiting on that upstream work.
 
-## What makes this "universal," not a one-off script
+## What makes this not a one-off script
 
 Instead of hardcoding attribute paths (`model.model.embed_tokens`, which
 differs across architectures — `transformer.wte` in GPT-2,
